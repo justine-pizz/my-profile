@@ -1,0 +1,93 @@
+body {
+background-color: white;
+color: black;
+font-family: 'Raleway', sans-serif;
+font-size:17px;
+font-weight:lighter;
+
+}
+h1, h2, h3 {
+font-family: 'Cinzel', serif;
+}
+ 
+h1{
+	background-color: white;
+    color: #815355;
+    font-weigth : 800;
+    font-family: Helvetica;
+    font-size: 32px;
+    letter-spacing:5px;
+    padding: 15px 20px;
+
+}
+h2{ 
+color: #D7BCC8; 
+font-size:24px;
+font-weigth:600;
+}
+
+a{
+	text-decoration: none;
+}
+a:-webkit-any-link {
+    font-family: 'Cinzel', serif;
+    color: #98B6B1;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight :600;
+    paddig:15px 20px;
+}
+a: hover{
+	color: #98B6B1;
+}
+
+div{
+	background: white;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align:center;
+}
+
+/* Custom design whith class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	text-align:center;
+
+}
+
+@media (max-wigth: 500px){  
+.container { 
+	width: 400px;
+ }
+}
+
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+ background-color: #815355 
+ color: white;
+  padding:15px 20px;
+}
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+}
+
+.list-inline li{
+	display:inline;
+	padding:10px ;
+}
+.list-inline i {
+	font-size:50px;
+}
+
+#introduction p{
+margin-bottom: 40px;
+}
